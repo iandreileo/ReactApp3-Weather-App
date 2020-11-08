@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.principalDiv {
+  border-radius: 10px;
+  background-color: antiquewhite;
+  margin: 2rem 0 2rem 0;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#root {
+  background: hsla(302, 82%, 76%, 1);
+
+  background: linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 40%, 68%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 40%, 68%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 40%, 68%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F492F0", endColorstr="#A18DCE", GradientType=1 );
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-break {
+  width: 100%;
+}
+
+.principalDiv button {
+  border-radius: 5px;
+  margin: 1rem;
+  background-color: white;
+  border: 0px;
+  padding: 10px;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
